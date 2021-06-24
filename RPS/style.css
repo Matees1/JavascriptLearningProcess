@@ -1,0 +1,21 @@
+#game-status-text{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#btn-startgame-div{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#paper{
+    padding-right: 80px;
+}
+
+#rock{
+    padding-left: 80px;
+}
+
+#rps-icons{
+    text-align: center;
+}
