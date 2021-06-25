@@ -13,11 +13,26 @@
 }
 
 #paper{
-    padding-right: 80px;
+    margin-right: 80px;
 }
 
 #rock{
-    padding-left: 80px;
+    margin-left: 80px;
+}
+
+#paper:hover{
+    cursor: pointer;
+    border: 2px solid rgba(105, 143, 140, 0.438);
+}
+
+#rock:hover{
+    cursor: pointer;
+    border: 2px solid rgba(105, 143, 140, 0.438);
+}
+
+#scissors:hover{
+    cursor: pointer;
+    border: 2px solid rgba(105, 143, 140, 0.438);
 }
 
 #rps-icons{

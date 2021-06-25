@@ -9,16 +9,18 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
   <body>  
-      <div id="rps-icons">
+      <section id="rps-icons">
           <img id="paper" src="Images/paper.png" alt="paper">
           <img id="scissors" src="Images/scissors.png" alt="paper">
           <img id="rock" src="Images/rock.png" alt="paper">
-      </div>
+      </section>
   
       <div id="btn-startgame-div">
-          <button class="btn btn-dark" id="btn-startgame">Start game</button>    
+          <button class="btn btn-dark" id="btn-startgame">Start game</button> 
+          <h3 id="game-status-text">:</h3>  
       </div>
-      <h3 id="game-status-text">:</h3>
+
+      <button class="btn btn-danger" id="reset-btn">Reset</button>
 
       <script src="index.js"></script>
   
