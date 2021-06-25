@@ -8,6 +8,10 @@
     padding-top: 50px;
 }
 
+#btn-startgame{
+    visibility: visible;
+}
+
 #paper{
     padding-right: 80px;
 }
@@ -18,4 +22,8 @@
 
 #rps-icons{
     text-align: center;
+}
+
+#game-status-text{
+    visibility: hidden;
 }
